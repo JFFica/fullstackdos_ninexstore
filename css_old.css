@@ -1,0 +1,86 @@
+body {
+    color: white;
+    background-image: url("wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 10px 0;
+    margin: 20px auto;
+    background-color: #000000;
+    text-align: center;
+    list-style: none;
+    border-radius: 10px;
+    max-width: 500px;         
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 12px;
+    border-right: 1px solid #ccc;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+table {
+    border: 5px solid black;
+    border-collapse: collapse;
+    color: white;
+    background-color: rgba(109, 46, 122, 0.7)   ;
+    max-width: 600px;
+    margin: auto;
+}
+
+table td {
+    padding: 25px;
+    text-align: left;
+}
+
+
+
+.footer-content {
+    flex-direction: column;
+}
+
+.footer-icons, .footer-copyright {
+    margin-bottom: 10px;/
+}
+
+#uyc{
+
+
+}
+#uyc td, #desc td{
+    padding: 15px;
+    text-align: center;
+}
+
+#tablaform{
+    width: 15%;
+}
+
+.btn-submit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}

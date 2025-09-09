@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<!--Jorge Andrés Fuentes Fica-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script type="module" src="./uno.js" defer></script>
+	<title>Form</title>
+</head>
+<body>
+    <main>
+        <header>
+        <h1><strong>NinexStore</strong></h1>
+    	</header>
+        <section>
+            <form action="" method="post">
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre(s): </label></td>
+                        <td><input type="text" id="nombre" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido">Apellido(s):</label></td>
+                        <td><input type="text" id="apellido" name="apellido"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fono">Número Telefónico:</label></td>
+                        <td><input type="text" id="fono" name="fono" maxlength="9" value="9"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="correo">Correo Electrónico:</label></td>
+                        <td><input type="email" id="correo" name="correo"></td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td><label for="servicio">Tipo de Servicio:</label></td>
+                        <td>
+                            <select id="servicio" name="servicio">
+                                <option value="">Seleccione</option>
+                                <option value="mantencion">Mantención</option>
+                                <option value="instalacion">Instalación de Componentes</option>
+                                <option value="limpieza">Limpieza Interna</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha">Fecha de Atención:</label></td>
+                        <td><input type="date" id="fecha" name="fecha"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hora">Hora de Atención:</label></td>
+                        <td><input type="text" id="hora" name="hora" placeholder="HH:MMm"></td>
+                    </tr>
+                </table>
+                <div class="botones">
+                    <button type="submit" id="btnEnviar" class="btn-submit">Enviar</button>
+                    <button type="button" id="btnLimpiar" class="btn-reset">Limpiar</button>
+                </div>
+                <div id="mensaje"></div>
+            </form>
+        </section>
+    </main>
+    <br>
+		<center><a href="dos.html" target="_self"><img src="u3.png" height="5%" width="5%"></img></a></center>
+    <br><br><br><footer><center>
+            
+    </footer>    
+</body>
+</html>
