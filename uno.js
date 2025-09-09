@@ -7,11 +7,10 @@ const btnLimpiar = $('#btnLimpiar');
 
 
 //Bloquear fechas pasadas
-    const hoy = new Date().toISOString().split('T')[0];
-    fecha.setAttribute('min', hoy)
+const hoy = new Date().toISOString().split('T')[0];
+fecha.setAttribute('min', hoy)
 
 //Siempre empezar con 9
-const fonoInput = document.getElementById('fono');
 fono.addEventListener('input', () => {
     if (!fono.value.startsWith("9")) {
         fono.value = "9";
