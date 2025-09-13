@@ -20,7 +20,7 @@ fono.addEventListener('input', () => {
 
 function correoValido(email) {
   const validar = (email || "").trim().toLowerCase();
-  return /^[^\s@]+@(gmail\.com)$/.test(validar);
+  return /^[^\s@]+@(duocuc\.cl)$/.test(validar);
 }
 
 
@@ -91,7 +91,7 @@ form.addEventListener('submit', (e) => {
         return;
     }
     if (!correoValido(correo)) {
-        mensaje.textContent = 'Advertencia: Solo admitimos correos con el dominio @gmail.com';
+        mensaje.textContent = 'Advertencia: Solo admitimos correos con el dominio @duocuc.cl';
         return;
     }
 
